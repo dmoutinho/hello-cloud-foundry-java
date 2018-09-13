@@ -1,0 +1,9 @@
+applications:
+  - path: target/JavaHelloWorldApp.war
+    name: teste-app-java
+    environment_json: {}
+    memory: 512M
+    instances: 1
+    disk_quota: 1024M
+    services:
+      - availability-monitoring-auto
